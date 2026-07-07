@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useForm } from 'react-hook-form';
+import { useNavigate } from 'react-router-dom';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
 import {
@@ -10,7 +11,6 @@ import {
   Shield,
   Zap,
   Globe,
-  Play,
   Check,
   AlertCircle,
   Info,
@@ -65,7 +65,6 @@ import {
   DialogTitle
 } from '@/shared/components/ui/Dialog';
 import { useToast } from '@/shared/contexts/ToastContext';
-import ThemeToggle from '@/shared/components/ThemeToggle';
 
 const features = [
   {
@@ -141,6 +140,7 @@ const formSchema = z.object({
 type FormData = z.infer<typeof formSchema>;
 
 const Home = () => {
+  const navigate = useNavigate();
   const [isDialogOpen, setIsDialogOpen] = useState(false);
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
   const [progress, setProgress] = useState(65);
@@ -200,10 +200,6 @@ const Home = () => {
       <section className="relative overflow-hidden">
         <div className="absolute inset-0 bg-linear-to-br from-accent-primary/10 to-accent-secondary/10"></div>
         <div className="relative container mx-auto px-4 py-16 sm:py-24">
-          <div className="flex justify-end mb-8">
-            <ThemeToggle />
-          </div>
-
           <motion.div
             className="text-center max-w-4xl mx-auto"
             initial={{ opacity: 0, y: 20 }}
@@ -234,11 +230,11 @@ const Home = () => {
             <div className="flex flex-wrap justify-center gap-4 mb-8">
               <Button
                 size="lg"
-                onClick={() => setIsDialogOpen(true)}
+                onClick={() => navigate('/profile')}
                 className="cursor-pointer"
               >
-                <Play className="w-5 h-5 mr-2" />
-                Try Demo
+                <Rocket className="w-5 h-5 mr-2" />
+                Launch Auth Demo
               </Button>
               <Button
                 variant="outline"
