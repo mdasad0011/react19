@@ -37,7 +37,7 @@ export const APP_CONFIG = {
   DESCRIPTION: 'Modern React TypeScript template',
   VERSION: '1.0.0',
   AUTHOR: 'Yousif Abozid',
-  REPOSITORY: 'https://github.com/YousifAbozid/template-react-ts'
+  REPOSITORY: 'https://github.com/mdasad0011/react19.git'
 } as const;
 
 // Breakpoints (should match Tailwind CSS)

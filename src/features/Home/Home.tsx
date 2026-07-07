@@ -245,7 +245,7 @@ const Home = () => {
                 size="lg"
                 onClick={() =>
                   window.open(
-                    'https://github.com/YousifAbozid/template-react-ts',
+                    'https://github.com/mdasad0011/react19.git',
                     '_blank'
                   )
                 }
@@ -641,7 +641,7 @@ const Home = () => {
                 size="lg"
                 onClick={() =>
                   window.open(
-                    'https://github.com/YousifAbozid/template-react-ts#readme',
+                    'https://github.com/mdasad0011/react19.git#readme',
                     '_blank'
                   )
                 }
@@ -655,7 +655,7 @@ const Home = () => {
                 size="lg"
                 onClick={() =>
                   window.open(
-                    'https://github.com/YousifAbozid/template-react-ts',
+                    'https://github.com/mdasad0011/react19.git',
                     '_blank'
                   )
                 }
