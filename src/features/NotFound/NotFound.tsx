@@ -61,8 +61,8 @@ const Notfound = () => {
         {/* Help text */}
         <div className="mt-8 pt-6 border-t border-border-primary">
           <p className="text-text-tertiary text-sm">
-            Visit our home to explore all available features including
-            forms, API demos, and more.
+            Visit our home to explore all available features including forms,
+            API demos, and more.
           </p>
         </div>
       </div>
