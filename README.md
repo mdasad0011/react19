@@ -89,7 +89,7 @@ src/
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/YousifAbozid/template-react-ts.git
+   git clone https://github.com/mdasad0011/react19.git.git
    cd template-react-ts
    ```
 
@@ -282,5 +282,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 Made with ❤️ and ⚡ by [Yousif Abozid](https://github.com/YousifAbozid)
 
 </div>
-#   r e a c t 1 9  
+#   r e a c t 1 9 
+ 
  
