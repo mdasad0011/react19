@@ -266,22 +266,8 @@ npm run build
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
-## 👨‍💻 Author
-
-**Yousif Abozid**
-
-- 🐙 GitHub: [@YousifAbozid](https://github.com/YousifAbozid)
-- 📧 Email: yousif.abozid@yahoo.com
-
----
-
 <div align="center">
 
 **⭐ Star this repository if you find it helpful!**
 
-Made with ❤️ and ⚡ by [Yousif Abozid](https://github.com/YousifAbozid)
-
 </div>
-#   r e a c t 1 9 
- 
- 
